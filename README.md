@@ -11,6 +11,8 @@ cmake ..
 make
 ```
 
+Or theres also a prebuild .exe in build.zip
+
 ### windows
 ```
 mkdir build
