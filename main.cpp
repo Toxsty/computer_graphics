@@ -58,12 +58,12 @@ glm::mat4 getPlanetTransform(Planet p);
 
 //    coordinates, relativeTo, scale, rotationSpeed, selfRotationSpeed, texturePath, textureId
 vector<Planet> planets = {
-    { glm::vec3(0.0f, 0.0f, 0.0f),  0, 2.0f, 50.0f, 20.0f, "resources/sun.jpg",         0, lightSourceAmbient },
-    { glm::vec3(6.0f, 0.0f, 0.0f),  0, 0.6f, 70.0f, 10.0f, "resources/ceres_fictional.jpg", 0, worldAmbient },
-    { glm::vec3(11.0f, 0.0f, 0.0f),  0, 0.8f, 20.0f, 30.0f, "resources/earth.jpg",      0, worldAmbient },
-    { glm::vec3(2.0f, 0.0f, 0.0f),  2, 0.3f, 50.0f, 60.0f, "resources/moon.png",        0, worldAmbient },
-    { glm::vec3(18.0f, 0.0f, 0.0f),  0, 1.3f, 60.0f, 15.0f, "resources/venus.jpg",      0, worldAmbient },
-    { glm::vec3(24.0f, 0.0f, 0.0f), 0, 1.7f, 25.0f, 60.0f, "resources/jupiter.jpg",     0, worldAmbient },
+    { glm::vec3(0.0f, 0.0f, 0.0f),  0, 2.0f, 50.0f, 20.0f, (char*)"resources/sun.jpg",         0, lightSourceAmbient },
+    { glm::vec3(6.0f, 0.0f, 0.0f),  0, 0.6f, 70.0f, 10.0f, (char*)"resources/ceres_fictional.jpg", 0, worldAmbient },
+    { glm::vec3(11.0f, 0.0f, 0.0f),  0, 0.8f, 20.0f, 30.0f, (char*)"resources/earth.jpg",      0, worldAmbient },
+    { glm::vec3(2.0f, 0.0f, 0.0f),  2, 0.3f, 50.0f, 60.0f, (char*)"resources/moon.png",        0, worldAmbient },
+    { glm::vec3(18.0f, 0.0f, 0.0f),  0, 1.3f, 60.0f, 15.0f, (char*)"resources/venus.jpg",      0, worldAmbient },
+    { glm::vec3(24.0f, 0.0f, 0.0f), 0, 1.7f, 25.0f, 60.0f, (char*)"resources/jupiter.jpg",     0, worldAmbient },
 };
 
 vector<std::string> faces = {
